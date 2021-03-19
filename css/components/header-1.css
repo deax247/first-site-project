@@ -1,0 +1,40 @@
+.first-header {
+    background-color: #171717;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.contact-logos {
+    margin: 10px 100px;
+}
+.contact-logos > a {
+    margin-right: 10px;
+}
+.contact-logos i {
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.contact-logos i:hover {
+    color: #FECC18;
+}
+
+
+.contact-telephone {
+    display: flex;
+    margin: 10px 120px;
+}
+.contact-telephone a {
+    margin-left: 5px;
+    transition: .3s;
+}
+.contact-telephone a:hover {
+    color: #FECC18;
+}
+
+
+

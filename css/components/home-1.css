@@ -1,0 +1,53 @@
+.home-1 {
+    display: flex;
+}
+
+.bg-1 {
+    height: 800px;
+    width: 58%;
+    background-image: url(../../images/bgs/mt-1448-home-bg_1.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.bg-2 {
+    height: 800px;
+    width: 42%;
+    background-image: url(../../images/bgs/mt-1448-home-bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.home-content {
+    vertical-align: middle;
+    margin: 250px 100px 400px 70px;
+    
+}
+
+.description-1 {
+    color: #F4C529;
+    font-size: 13px;
+    font-weight: 750;
+    letter-spacing: 3px;
+    
+}
+
+.home-title {
+    font-size: 64px;
+    font-weight: 1000;
+    margin-top: 20px;
+    word-spacing: 3px;
+}
+
+.btn {
+    background-color: #FECC18;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    color: black;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}

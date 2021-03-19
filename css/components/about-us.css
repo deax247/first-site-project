@@ -1,0 +1,634 @@
+.home-2-title {
+    font-size: 48px;
+}
+.description-1 {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.taxi-services-1 {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.taxi-services-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+.taxi-services-description {
+    width: 42%;
+    justify-content: flex-end;
+}
+
+.taxi-services-p > h6 {
+    color: black;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 22px;
+}
+
+.taxi-services-img {
+    width: 42%;
+    margin-left: 30px;
+    justify-content: flex-start;
+}
+
+.taxi-services-graphs {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.graph-texts > h6 {
+    color: #171717;
+}
+
+.graph-texts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.graph {
+    width: 100%;
+    height: 10px;
+    margin-bottom: 15px;
+    background-color: black;
+}
+
+.airport {
+    width: 65%;
+    height: 10px;
+    background-color: #F4C52D;
+}
+
+.vip-taxi {
+    width: 95%;
+    height: 10px;
+    background-color: #F4C52D;
+}
+
+.shopping {
+    width: 90%;
+    height: 10px;
+    background-color: #F4C52D;
+}
+
+.girl-feedback {
+    height: 450px;
+    display: flex;
+}
+
+.girl-picture {
+    background-image: url(../../images/bgs/woman-bg3.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.feedback-bg {
+    width: 50%;
+    background-image: url(../../images/bgs/woman-feedback-bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-quote-left {
+    color: #F4C52D;
+    font-size: 26px;
+    margin-bottom: 22px;
+}
+
+.feedback-text > p {
+    font-weight: 300;
+    color: #FFFFFF;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.feedback-content {
+    width: 75%;
+
+}
+
+.feedback-author {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.feedback-author > h6 {
+    font-size: 18px;
+}
+
+.feedback-author > h5 {
+    color: #F0C12C;
+    font-style: italic;
+}
+
+.btn:hover {
+    background-color: #F7B317;
+}
+
+.meet-team {
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+
+.container {
+    width: 270px;
+}
+.container:not(:last-child) {
+    margin-right: 35px;
+}
+
+.container > img {
+    margin-bottom: 0;
+}
+
+.container > p {
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.profile-bottom {
+    background-color: #171717;
+    width: 100%;
+    height: 100px;
+    margin-top: -5px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 180px;
+    transition: 0.3s;
+}
+
+.social-networks i {
+    font-size: 14px;
+    margin-left: 10px;
+    transition: 0.4s;
+}
+
+.white-font i {
+    color: white;
+}
+
+.rfv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+
+}
+
+.rfv > h3 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.job-desc {
+    color: #f4c52d;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.white-font i:hover {
+    color: #F4C52D;
+}
+
+.profile-bottom:hover {
+    background-color: #353535;
+}
+
+.paddings {
+    margin-left: 33px;
+}
+
+.taxi-squares {
+    width: 100%;
+    height: 15px;
+    bottom: 0;
+    background-image: url(../../images/bgs/taxi-squares.png);
+    background-size: cover;
+}
+
+.partners {
+    width: 100%;
+    height: 200px;
+    background-color: #F4C52D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.man-man {
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+
+.man-face {
+    width: 50%;
+    height: 650px;
+    background-image: url(../../images/bgs/maaan.jpg);
+    background-position: right;
+}
+
+.man-content {
+    width: 50%;
+    background-image: url(../../images/bgs/founder-bg.png);
+    background-position: right;
+}
+
+
+.home-2-title {
+    color: white;
+}
+
+.paragraph {
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.orange-font i {
+    color: #F4C52D;
+}
+
+.man-texts {
+    padding-right: 25%;
+    margin-left: 20px;
+    margin-top: 180px;
+}
+
+
+
+
+.prices {
+    background-image: url(../../images/bgs/prices-bg6.jpg);
+    height: 900px;
+}
+
+.prices-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    margin-bottom: 40px;
+}
+
+.pricing-tables {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 90px;
+}
+
+.side-tables {
+    height: 570px;
+    width: 31.5%;
+}
+
+
+
+
+.mid-table {
+    height: 650px;
+    width: 31%;
+    margin: 0 10px;
+}
+
+
+
+
+.table-top {
+    display: flex;
+    flex-direction: column;
+    height: calc(35%);
+    width: 100%;
+    transition: 0.3s;
+    background-color: #0F0F0F;
+}
+
+.table-top:hover {
+    background-color: #353535;
+}
+
+.bold-line {
+    width: 170px;
+    height: 10px;
+    background-color: #F4C52D;
+    margin: 0  auto 30px;
+}
+
+.table-top > h5 {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 auto 30px;
+}
+
+.value-per-hour {
+    width:100%;
+    height: 80px;
+    background-color: #F4C52D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value-per-hour > h5 {
+    font-size: 34px;
+    font-weight: 900;
+
+}
+
+.table-bottom {
+    height: 65%;
+    width: 100%;
+    background-color: #292929;
+}
+
+
+.table-bottom a {
+    margin: 0 auto;
+}
+
+.table-bottom ul {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table-bottom li {
+    font-size: 18px;
+    font-weight:400;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: flex;
+    width: 180px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.white {
+    background-color: white;
+    transition: 0.4s;
+}
+
+.white:hover {
+    background-color: #F4C52D;
+}
+
+
+.orange {
+    background-color: #F4C52D;
+    transition: 0.4s;
+}
+
+.orange:hover {
+    background-color: #F7B317;
+}
+
+.text-black {
+    color: black;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.gallery-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    margin-bottom: 70px;
+}
+
+.gallery-text > h3 {
+    font-size: 50px;
+    opacity: 0.9;
+}
+
+.taxi-gallery {
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.taxi-gallery>a {
+    display: flex;
+    width: 350px;
+    height: 270px;
+    margin-bottom: 30px;
+    z-index: 1;
+    overflow: hidden; 
+    position: relative;
+    transition: 2s;
+}
+
+.taxi-gallery img {
+    overflow: hidden;
+    width: 350px;
+    height: 270px;
+}
+
+.taxi-gallery>a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: transparent;
+    opacity: 0.6;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.taxi-gallery>a:hover::before {
+    z-index: 2;
+    background-color: black;
+}
+
+.taxi-gallery>a:hover .fa-plus {
+    z-index: 2;
+    opacity: 1;
+}
+
+.fa-plus {
+    z-index: -1;
+    color: #FECC18;
+    opacity: 0;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 170px;
+    margin-top: 120px;
+    transition: 0.3s;
+}
+
+.taxi-gallery i {
+    position: absolute;
+}
+
+
+
+
+.taxi-info {
+    display: flex;
+}
+
+.info-sizing {
+    width: 40%;
+}
+
+.info-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------------------------- */
+.detail-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 630px;
+    background-color: #F4C52D;
+}
+
+.detail-info i {
+    color: #171717;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.detail-info h5 {
+    color: #171717;
+    font-weight: 1000;
+}
+
+.detail-info h6 {
+    color: #171717;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+/* -------------------------------------------- */
+.detail-first {
+    margin-bottom: 80px;
+}
+.detail-second {
+    margin-bottom: 80px;
+}
+/* ------------------------------------------------------ */
+
+/* --------------------------------------------------------- */
+
+
+.how-to {
+    width: 50%;
+    height: 630px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-to h3 {
+    color: white;
+}
+
+
+
+.black-lines {
+    width: 80%;
+    height: 50px;
+    background-color: #171717;
+}
+
+.black-lines h3 {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .9;
+    padding-left: 15px;
+}
+
+.second-line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.erdf {
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    padding: 15px;
+}
+
+.plus-fone {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+    background-color: #F4C52D;
+}
+
+.fa-plus {
+    position: absolute;
+    color: black;
+}
+
+
+
