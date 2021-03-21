@@ -153,18 +153,18 @@
     padding-bottom: 200px;
 }
 
-.container {
+.team-box {
     width: 270px;
 }
-.container:not(:last-child) {
+.team-box:not(:last-child) {
     margin-right: 35px;
 }
 
-.container > img {
+.team-box > img {
     margin-bottom: 0;
 }
 
-.container > p {
+.team-box > p {
     font-size: 15px;
     font-weight: 300;
     color: black;
