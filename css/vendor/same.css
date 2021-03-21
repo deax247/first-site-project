@@ -1,3 +1,16 @@
+
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section-title {
+    font-size: 56px;
+    font-weight: 1000;
+    color: black;
+}
+
 .wrap {
     display: flex;
     align-items: center;

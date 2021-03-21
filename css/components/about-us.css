@@ -720,9 +720,10 @@
 .foot-foot {
     display: flex;
     width: 100%;
-    height: 485px;
+    height: 435px;
     background-image: url(../../images/bgs/last-one.jpg);
     background-position: left;
+    align-items: center;
 }
 
 .footer-first {
@@ -746,19 +747,95 @@
 .footer-logos i {
     font-size: 15px;
 }
+.footer-logos i:hover {
+    color: #F6BC22;
+}
 
-
-
+.fonts-settings {
+    color: #FECC18;
+    margin-right: 10px;
+    font-size: 12px;
+    margin-top: 3px;
+}        
 .footer-second {
     margin-left: 70px;
-    margin-right: 120px;
+    margin-right: 50px;
     height:200px;
-    width: 20%;
-    border: 1px solid black;
+    width: 25%;
 }
+.footer-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.footer-second a, p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.footer-call {
+    margin-top: 25px;
+}
+.footer-call > .fa-phone-alt {
+    margin-right: 10px;
+}
+
+.footer-map {
+    display: flex;
+    margin: 20px 0;
+}
+
+
+.footer-contact {
+    display: flex;
+}
+.footer-mails {
+    display: flex;
+    flex-direction: column;
+}
+.fa-envelope {
+    margin-top: 8px;
+}
+.footer-mails > a {
+    line-height: 1.5;
+}
+
+
+
+
 
 .footer-third {
     height: 200px;
-    width: 20%;
-    border: 1px solid pink;
+    width: 30%;
+}
+
+.search-box {
+    width: 85%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.search-box::before {
+    content: "Email *";
+    color: #292929;
+    margin-left: 15px;
+}
+
+/* ----------------------------------- */
+
+.last-footer {
+    height: 50px;
+    width: 100%;
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+}
+
+.last-footer > h3 {
+    margin-left: 80px;
 }
