@@ -523,6 +523,7 @@
 
 .taxi-info {
     display: flex;
+    width: 100%;
 }
 
 .info-sizing {
@@ -592,16 +593,20 @@
 
 
 .black-lines {
+    position: relative;
     width: 80%;
-    height: 50px;
+    height: 45px;
     background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .black-lines h3 {
     font-size: 18px;
     font-weight: 500;
     opacity: .9;
-    padding-left: 15px;
 }
 
 .second-line {
@@ -610,25 +615,150 @@
 }
 
 .erdf {
-    width: 470px;
+    margin-left: 30px;
     display: flex;
-    justify-content: space-between;
     align-items:  center;
-    padding: 15px;
 }
+
+
+
 
 .plus-fone {
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     border-radius: 20%;
     background-color: #F4C52D;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 30px;
 }
 
-.fa-plus {
-    position: absolute;
+.fa-plus-square {
+    color: #F4C52D;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+/* ----------------------------------------------- */
+
+
+
+
+
+.join-us {
+    height: 600px;
+    background-image: url(../../images/bgs/prices-bg6.jpg);
+    background-position: left center;
+    /* border: 1px solid black; */
+}
+
+.join-info {
+    display: flex;
+    margin: 0 90px;
+}
+
+
+.join-buttons {
+    width: 25%;
+    margin-right: 30px;
+}
+.join-button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    background-color: #FECC18;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.join-button h3 {
+    font-size: 18px;
+    font-weight: 600;
     color: black;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+.join-button:hover {
+    background-color: black;
+}
+.join-button:hover h3 {
+    color: white;
+}
+
+
+.join-image {
+    display: flex;
+    position: relative;
+    width: 31%;
+    height: 280px;
+    margin-right: 60px;
+}
+.join-image > img {
+    position: absolute;
+}
+
+
+.join-text {
+    width: 37%;
+}
+.join-text p {
+    color: black;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.join-text p:last-child {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 0px;
+}
+
+
+/* --------------------------------------------- */
+
+.foot-foot {
+    display: flex;
+    width: 100%;
+    height: 485px;
+    background-image: url(../../images/bgs/last-one.jpg);
+    background-position: left;
+}
+
+.footer-first {
+    margin-left: 80px;
+    height: 200px;
+    width: 25%;
+}
+.footer-first img {
+    margin-bottom: 20px;
+}
+.footer-first h5 {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.9;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.footer-logos a:not(:last-child) {
+    margin-right: 10px;
+}
+.footer-logos i {
+    font-size: 15px;
 }
 
 
 
+.footer-second {
+    margin-left: 70px;
+    margin-right: 120px;
+    height:200px;
+    width: 20%;
+    border: 1px solid black;
+}
+
+.footer-third {
+    height: 200px;
+    width: 20%;
+    border: 1px solid pink;
+}
