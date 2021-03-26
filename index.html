@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
-    <header class="first-header">
+    <header class="first-header container">
         <div class="contact-logos">
             <a href="#">
                 <i class="fab fa-twitter"></i> 
@@ -35,15 +35,17 @@
             <a href="#">
                 <i class="fas fa-phone-alt"></i>
             </a>
-            <p class="telephone-text">
-                Call us: <a href="tel: +7712345678"> 1-800-1234-567</a>
-            </p>
+
+            <div class="phone-number">
+                <h5 class="telephone-text">Call us: </h5>
+                <a href="tel: +7712345678" class="telephone-text"> 1-800-1234-567</a>
+            </div>
         </div>
     </header>
 
     <!-- second header -->
     
-    <header class="second-header">
+    <header class="second-header container">
         
         <div class="taxi-logo">
             <img src="images/widgets/mt-1448-home-logo.png" alt="">
@@ -52,16 +54,16 @@
         <div class="header2-liiist">
             <ul class="header2-list">
                 <li>
-                    <a href="#">gallery</a>
+                    <a href="#id-gallery" >gallery</a>
                 </li>
                 <li>
-                    <a href="#">pricing</a>
+                    <a href="#id-prices">pricing</a>
                 </li>
                 <li>
-                    <a href="#">vacancy</a>
+                    <a href="#id-join-us">vacancy</a>
                 </li>
                 <li>
-                    <a href="#">all books</a>
+                    <a href="#id-home-2">all books</a>
                 </li>
             </ul>
         </div>
@@ -83,9 +85,9 @@
 
     <!-- section number 2 -->
 
-    <section class="home-2">
+    <section class="home-2" id="id-home-2">
 
-        <div class="home-2-content">
+        <div class="home-2-content container">
             <div class="home-2-texts">
                 <h6 class="description-1">USE THE APP AND WE WILL PICK YOU UP</h6>
                 <h2 class="section-title" style="color: black;">Taxi Service App</h2>
@@ -93,10 +95,10 @@
                 <p class="home-2-desc-2">This app identifies your location so that the driver could find you quickly and easily even if you don`t know the exact address.</p>
                 <a href="#" class="btn">download now</a>
             </div>
-        </div>
-
-        <div class="home-2-logo">
-            
+        
+            <div class="home-2-logo">
+                <img src="images/widgets/mt-1448-home-img1.png" alt="">
+            </div>
         </div>
     </section>
 
@@ -371,7 +373,7 @@
         </div>
 
 
-        <div class="prices">
+        <div class="prices" id="id-prices">
 
             <div class="prices-text">
                 <h5 class="description-1">QUALITY TAXI SERVICES AT AFFORDABLE RATES</h5>
@@ -462,7 +464,7 @@
         </div>
 
 
-        <div class="gallery">
+        <div class="gallery" id="id-gallery">
             <div class="gallery-text">
                 <h5 class="description-1">GALLERY</h5>
                 <h3 class="section-title" style="color: black;">Cars In The Park Park</h3>
@@ -500,7 +502,7 @@
                 </a> 
             </div>
         </div>
-
+        
         <div class="taxi-info wrap">
             <div class="detail-info">
                 <div class="wrap">
@@ -560,7 +562,7 @@
             </div>
         </div>
 
-        <div class="join-us">
+        <div class="join-us" id="id-join-us">
             <div class="gallery-text">
                 <h5  class="description-1">JOIN OUR TEAM</h5>
                 <h3 class="section-title" style="color: #050505; font-size: 50px;">Choose the Vacancy and Send Your Resume</h3>

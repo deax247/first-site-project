@@ -298,6 +298,7 @@
 .prices {
     background-image: url(../../images/bgs/prices-bg6.jpg);
     height: 900px;
+    padding-top: 170px;
 }
 
 .prices-text {
@@ -305,7 +306,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 170px;
     margin-bottom: 40px;
 }
 
@@ -438,14 +438,15 @@
     justify-content: space-between;
 }
 
-
+.gallery {
+    padding-top: 170px;
+}
 
 .gallery-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 170px;
     margin-bottom: 70px;
 }
 
@@ -457,7 +458,6 @@
 .taxi-gallery {
     margin-left: 120px;
     margin-right: 120px;
-    padding-bottom: 150px;
     display: flex;
     justify-content: space-between;
     z-index: 2;
@@ -650,7 +650,7 @@
     height: 600px;
     background-image: url(../../images/bgs/prices-bg6.jpg);
     background-position: left center;
-    /* border: 1px solid black; */
+    padding-top: 150px;
 }
 
 .join-info {
