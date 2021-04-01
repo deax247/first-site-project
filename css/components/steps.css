@@ -1,24 +1,22 @@
 .steps {
-    width: 100%;
     height: 300px;
     display: flex;
 }
 
-.first-step-square {
+.square {
     width: 33.33%;
     height: 300px;
+}
+
+.first-step-square {
     background-color: #292929;
 }
 
 .second-step-square {
-    width: 33.33%;
-    height: 300px;
     background-color: #242424;
 }
 
 .third-step-square {
-    width: 33.33%;
-    height: 300px;
     background-color: #171717;
 }
 

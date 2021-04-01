@@ -12,15 +12,14 @@
 
 .header2-list a {
     font-size: 14px;
-    color: black;
     text-transform: uppercase;
     font-weight: 600;
     transition: 0.3s;
 }
-
-.header2-liiist a:hover {
+.header2-list a:hover {
     color: #FECC18;
 }
+
 
 .header2-list li {
     margin-left: 50px;
